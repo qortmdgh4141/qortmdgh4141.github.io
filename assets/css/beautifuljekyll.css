@@ -19,8 +19,10 @@ layout: null
   --footer-hover-col: {{ site.footer-hover-col | default: "#0085A1" }};
 
   /* common CSS variables */
-  --body-font: 'Lora', 'Times New Roman', serif;
-  --header-font: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /* --body-font: 'Lora', 'Times New Roman', serif;
+  --header-font: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+  --body-font: 'Inter', sans-serif;
+  --header-font: 'Inter', sans-serif;
   --mid-col: #808080;
 }
 
@@ -153,12 +155,13 @@ img {
 
 .navbar-custom {
   background-color: var(--navbar-col);
-  border-bottom: 1px solid var(--navbar-border-col);
+  border-bottom: 1px solid var(--navbar-col);
   font-family: var(--header-font);
-  {% if site.navbar-img %}
+  /* box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); Adds the shadow */
+  /* {% if site.navbar-img %}
     background-image: url({{ site.navbar-img | relative_url }});
     background-attachment: fixed;
-  {% endif %}
+  {% endif %} */
   -webkit-transition: padding .5s ease-in-out;
   -moz-transition: padding .5s ease-in-out;
   transition: padding .5s ease-in-out;
@@ -219,6 +222,10 @@ img {
 .navbar-custom .navbar-nav .nav-link {
   font-weight: 800;
   color: var(--navbar-text-col);
+}
+
+.navbar-custom .navbar-nav .nav-link.active {
+  color: var(--hover-col); 
 }
 
 .navbar-toggler {
@@ -405,17 +412,19 @@ img {
 }
 
 /* --- Footer --- */
-
+/* # 3.125rem; original for margin-top*/
 footer {
   padding: 1.875rem 0;
+  padding-top: 5px;
   border-top: 1px var(--footer-col) solid;
-  margin-top: 3.125rem;
+  margin-top: 0rem; 
   font-size: 0.875rem;
   background-color: var(--footer-col);
-  {% if site.footer-img %}
-    background-image: url({{ site.footer-img | relative_url }});
-    background-attachment: fixed;
-  {% endif %}
+  display: flex;             /* Use flexbox */
+  flex-direction: column;    /* Stack items vertically */
+  justify-content: center;   /* Center content vertically */
+  align-items: center;       /* Center content horizontally */
+  text-align: center;        /* Ensure text is centered */
 }
 
 footer p.text-muted {
@@ -440,12 +449,9 @@ footer a:focus {
 footer .list-inline {
   margin: 0;
   padding: 0;
-  margin-bottom: 1.375rem;
+  margin-bottom: 1.875rem;
 }
-footer .list-inline .list-inline-item {
-  margin-bottom: 0.5rem;
-}
-footer .copyright {
+/* footer .copyright {
   font-family: var(--header-font);
   text-align: center;
   margin-bottom: 0;
@@ -458,6 +464,12 @@ footer .theme-by {
 footer .footer-custom-content {
   text-align: center;
   margin-bottom: 0.9375rem;
+  font-family: var(--header-font);
+} */
+footer .copyright,
+footer .theme-by,
+footer .footer-custom-content {
+  margin: 0.5rem 0;          /* Ensure equal margin for all footer text */
   font-family: var(--header-font);
 }
 
@@ -834,8 +846,6 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 
 table {
   padding: 0;
-  overflow-x: auto;
-  display: block;
 }
 table tr {
   border-top: 1px solid #cccccc;
@@ -942,6 +952,10 @@ pre {
 #social-share-section {
   margin-bottom: 1.875rem;
   margin-top: 1.875rem;
+}
+
+#social-share-section a {
+  color: #fff;
 }
 
 /* --- Notification boxes --- */
