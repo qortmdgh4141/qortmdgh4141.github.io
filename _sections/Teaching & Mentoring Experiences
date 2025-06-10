@@ -1,0 +1,53 @@
+---
+title: Teaching & Mentoring Experiences
+order: 6
+---
+
+<hr style="width: 23.8%; margin: auto; border: none; margin-bottom: 0em; margin-top: 0.2em">
+<div class="publication-section" style="text-align: left;">
+
+  <!-- AI Leadership Program for Manufacturing -->
+  <div style="margin-bottom: 2em;">
+    <h3 style="font-size: 1em; font-weight: bold;">
+      Mentor – AI Leadership Program for Manufacturing
+    </h3>
+    <p style="margin-top: 0.5em; font-size: 0.85em;">2024.11.01 – 2024.11.14</p>
+    <ul style="margin-top: 0.3em; list-style-type: disc; padding-left: 20px; font-size: 0.95em;">
+      <li>Participants: LG Electronics employees</li>
+    </ul>
+  </div>
+
+  <!-- National Defense AI Education -->
+  <div style="margin-bottom: 2em;">
+    <h3 style="font-size: 1em; font-weight: bold;">
+      Mentor – National Defense AI Education Program
+    </h3>
+    <p style="margin-top: 0.5em; font-size: 0.85em;">2024.10.15 – 2024.10.16</p>
+    <ul style="margin-top: 0.3em; list-style-type: disc; padding-left: 20px; font-size: 0.95em;">
+      <li>Participants: South Korean military personnel</li>
+    </ul>
+  </div>
+
+  <!-- Introduction to Reinforcement Learning -->
+  <div style="margin-bottom: 2em;">
+    <h3 style="font-size: 1em; font-weight: bold;">
+      Teaching Assistant – Introduction to Reinforcement Learning
+    </h3>
+    <p style="margin-top: 0.5em; font-size: 0.85em;">2024.03.04 – Present</p>
+    <ul style="margin-top: 0.3em; list-style-type: disc; padding-left: 20px; font-size: 0.95em;">
+      <li>Participants: Undergraduate and graduate students at Sungkyunkwan University</li>
+    </ul>
+  </div>
+
+  <!-- Introduction to Data Analysis -->
+  <div style="margin-bottom: 2em;">
+    <h3 style="font-size: 1em; font-weight: bold;">
+      Teaching Assistant – Introduction to Data Analysis
+    </h3>
+    <p style="margin-top: 0.5em; font-size: 0.85em;">2023.09.02 – Present</p>
+    <ul style="margin-top: 0.3em; list-style-type: disc; padding-left: 20px; font-size: 0.95em;">
+      <li>Participants: Undergraduate students at Sungkyunkwan University</li>
+    </ul>
+  </div>
+
+</div>
