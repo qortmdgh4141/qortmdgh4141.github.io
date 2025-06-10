@@ -27,9 +27,9 @@ navbar-links:
   - ["News", "/news.html"]
   - ["Publications", "/publications.html"]
   - ["Education", "/education.html"]
-  #- ["Teaching", "/teaching-mentoring-experiences.html"]
-  #- ["Internships", "/internship-experiences.html"]
-  #- ["Certificates", "/certificates.html"]
+  - ["Teaching", "/teaching-mentoring-experiences.html"]
+  - ["Internships", "/internship-experiences.html"]
+  - ["Certificates", "/certificates.html"]
 
 ################
 # --- Logo --- #
