@@ -22,15 +22,23 @@ title: Seungho Baek
 ###############################################
 
 # BSH
+# navbar-links:
+#   - ["About Me", "/about-me.html"]
+#   - ["News", "/news.html"]
+#   - ["Publications", "/publications.html"]
+#   - ["Education", "/education.html"]
+#   - ["Teaching", "/teaching-mentoring-experiences.html"]
+#   - ["Internships", "/internship-experiences.html"]
+#   - ["Certificates", "/certificates.html"]
 navbar-links:
-  - ["About Me", "/about-me.html"]
-  - ["News", "/news.html"]
-  - ["Publications", "/publications.html"]
-  - ["Education", "/education.html"]
-  - ["Teaching", "/teaching-mentoring-experiences.html"]
-  - ["Internships", "/internship-experiences.html"]
-  - ["Certificates", "/certificates.html"]
-
+  - ["About Me", "/#seungho-baek "]
+  - ["News", "/#news"]
+  - ["Publications", "/#publications"]
+  - ["Education", "/#education"]
+  - ["Experience", "/#experience"]
+  - ["Projects", "/#projects"]
+  - ["Awards", "/#awards"]
+  
 ################
 # --- Logo --- #
 ################
