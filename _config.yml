@@ -315,7 +315,6 @@ plugins:
   - jekyll-sitemap
 
 # collections: [sections]
-# BSH
 collections:
   sections:
     output: true
