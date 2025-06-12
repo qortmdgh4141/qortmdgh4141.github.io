@@ -1,0 +1,14 @@
+---
+layout: null
+permalink: /_search.json
+---
+[
+  {%- assign secs = site.sections | sort:"order" -%}     {# _sections/*.md #}
+  {%- for s in secs -%}
+    {
+      "title": {{ s.title | jsonify }},
+      "url": "{{ '/' | absolute_url }}{{ s.url }}",       /* ⇒ /#about-me */
+      "content": ""                                       /* 굳이 본문 미포함 */
+    }{% unless forloop.last %},{% endunless %}
+  {%- endfor -%}
+]
