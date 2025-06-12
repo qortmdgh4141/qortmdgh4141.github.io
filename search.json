@@ -1,6 +1,6 @@
 ---
 layout: null
-permalink: /_search.json
+permalink: /search.json
 ---
 [
   {%- assign secs = site.sections | sort:"order" -%}
