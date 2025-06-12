@@ -206,10 +206,17 @@ img {
   height: 2.5rem;
 }
 
-.navbar-custom .navbar-nav .nav-item {
+/* .navbar-custom .navbar-nav .nav-item {
   /* text-transform: uppercase; */  
   text-transform: none;            
   font-size: 0.8125rem;
+  letter-spacing: 0.0625rem;
+} */
+
+.navbar-custom .navbar-nav .nav-item {
+  /* text-transform: uppercase; */  
+  text-transform: none;            
+  font-size: 1.8125rem;
   letter-spacing: 0.0625rem;
 }
 
