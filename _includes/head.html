@@ -3,7 +3,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <!--   <link rel="icon" href="/assets/img/pi_favicon_sam.ico" type="image/x-icon"> -->
-  <link rel="icon" href="/assets/img/favicon_b.ico" type="image/x-icon"> 
+  <link rel="icon" href="/assets/img/pi_favicon_sam.ico" type="image/x-icon"> 
 
   {% capture pagetitle %}
     {%- if page.share-title -%}
@@ -164,10 +164,10 @@
   <link rel="stylesheet" href="{{ "/assets/css/staticman.css" | relative_url }}">
   {% endif %}
 
-  {% assign favicon_exists = site.static_files | where: "path", "/favicon_b.ico" | size %}
+  {% assign favicon_exists = site.static_files | where: "path", "/pi_favicon_sam.ico" | size %}
   {% if favicon_exists == 1 %}
 <!--   <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" -->
-  <link rel="icon" href="{{ '/favicon_b.ico' | relative_url }}"
+  <link rel="icon" href="{{ 'pi_favicon_sam' | relative_url }}"
 
   {% endif %}
 
