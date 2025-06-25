@@ -3,8 +3,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <!--   <link rel="icon" href="/assets/img/pi_favicon_sam.ico" type="image/x-icon"> -->
-  <link rel="icon" href="/assets/img/pi_favicon_sam.ico" type="image/x-icon"> 
-
+<!--   <link rel="icon" href="/assets/img/pi_favicon_sam.ico" type="image/x-icon">  -->
+  <link rel="icon" href="/assets/img/robot_favicon_sam.ico" type="image/x-icon"> 
+  
   {% capture pagetitle %}
     {%- if page.share-title -%}
       {{ page.share-title | strip_html | xml_escape }}
@@ -167,7 +168,8 @@
   {% assign favicon_exists = site.static_files | where: "path", "/pi_favicon_sam.ico" | size %}
   {% if favicon_exists == 1 %}
 <!--   <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" -->
-  <link rel="icon" href="{{ 'pi_favicon_sam' | relative_url }}"
+<!--   <link rel="icon" href="{{ 'pi_favicon_sam' | relative_url }}" -->
+  <link rel="icon" href="{{ 'robot_favicon' | relative_url }}"
 
   {% endif %}
 
